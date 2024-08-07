@@ -1,0 +1,136 @@
+
+@startuml
+package Pages{
+    package Reusables{
+        package errorSnackBar{
+            class errorSnackBar{
+                + text :String
+            }
+        }
+    }
+}
+
+
+
+newpage
+
+package Pages{
+    package Reusables{
+        package errorSnackBar{
+            class errorSnackBar{
+                + text :String
+            }
+        }
+    }
+}
+
+package Pages{
+    package SignUpScreen{
+        Class SignUpScreenView{
+
+        }
+
+    }
+}
+
+Pages.Reusables.errorSnackBar.errorSnackBar <-down- SignUpScreenView
+
+newpage
+
+package Pages{
+    package Reusables{
+        package errorSnackBar{
+            class errorSnackBar{
+                + text :String
+            }
+        }
+    }
+}
+
+package Pages{
+    package LoginScreen{
+        Class LoginScreenView{
+
+        }
+
+    }
+}
+
+Pages.Reusables.errorSnackBar.errorSnackBar <-down- LoginScreenView
+
+newpage
+
+package Pages{
+    package Reusables{
+        package errorSnackBar{
+            class errorSnackBar{
+                + text :String
+            }
+        }
+    }
+}
+
+package Pages{
+    package RootScreen{
+        Class RootScreenView{
+
+        }
+
+    }
+}
+
+Pages.Reusables.errorSnackBar.errorSnackBar <-down- RootScreenView
+
+
+newpage
+
+package Pages{
+    package Reusables{
+        package errorSnackBar{
+            class errorSnackBar{
+                + text :String
+            }
+        }
+    }
+}
+
+package Pages{
+    package ProfileScreen{
+        Class ProfileScreenView{
+
+        }
+
+    }
+}
+
+Pages.Reusables.errorSnackBar.errorSnackBar <-down- ProfileScreenView
+
+
+
+newpage
+
+package Pages{
+    package Reusables{
+        package errorSnackBar{
+            class errorSnackBar{
+                + text :String
+            }
+        }
+    }
+}
+
+package Pages{
+    package SplashScreen{
+        Class SplashScreen{
+
+        }
+
+    }
+}
+
+Pages.Reusables.errorSnackBar.errorSnackBar <-down- SplashScreen
+
+
+
+
+@enduml
